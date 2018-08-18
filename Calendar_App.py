@@ -1,3 +1,4 @@
+"""Simple Calendar GUI using tkinter and calendar"""
 import tkinter as tk
 from tkinter import ttk, scrolledtext
 import calendar
@@ -14,7 +15,7 @@ CURRENT_YEAR = NOW.year
 
 
 class CalendarApp():
-
+  """"Creating the App by passing it the root windows"""
     def __init__(self, root):
         self.root = root
         self.root.title(APP_NAME)
